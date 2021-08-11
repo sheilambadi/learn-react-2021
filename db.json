@@ -10,7 +10,7 @@
       "id": 2,
       "text": "Doctors appointment",
       "day": "Aug 13th at 1 pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "text": "Submit nLine application",
