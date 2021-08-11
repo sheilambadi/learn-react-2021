@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Nail appointment",
+      "day": "Aug 12th at 1 pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Doctors appointment",
+      "day": "Aug 13th at 1 pm",
+      "reminder": false
+    },
+    {
+      "text": "Submit nLine application",
+      "day": "14th August at 3 pm",
+      "reminder": true,
+      "id": 3
+    },
+    {
+      "text": "Clean house",
+      "day": "tomorrow morning",
+      "reminder": true,
+      "id": 4
+    }
+  ]
+}
