@@ -1,27 +1,31 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+import Button from './Button';
 
 // destructure props
 const Header = ({ title }) => {
-    return (
-        <header>
-            {/* <h1 style={{color: 'blue', backgroundColor: 'beige'}}>{title}</h1> */}
-            <h1 style={headingStyle}>{title}</h1>
+  const onClick = () => {
+    console.log('Clicked');
+  };
 
-        </header>
-    )
-}
+  return (
+    <header className="header">
+      <h1>{title}</h1>
+      <Button color="green" text="Add" onClick={onClick} />
+    </header>
+  );
+};
 
 Header.defaultProps = {
-    title: 'Tracker App'
-}
+  title: 'Tracker App'
+};
 
 Header.propTypes = {
-    title: PropTypes.string.isRequired
-}
+  title: PropTypes.string.isRequired
+};
 
 const headingStyle = {
-    color: 'blue', 
-    backgroundColor: 'beige'
-}
+  color: 'blue',
+  backgroundColor: 'beige'
+};
 
-export default Header
+export default Header;
